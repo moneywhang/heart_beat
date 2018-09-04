@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_heartrate"
+            android:icon="@mipmap/health"
+            android:title="心率測量" />
+        <item
+            android:id="@+id/nav_healthinform"
+            android:icon="@mipmap/medical_report"
+            android:title="健康資訊" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@mipmap/exercise"
+            android:title="運動建議" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@mipmap/console"
+            android:title="互動訓練" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_regester"
+                android:icon="@mipmap/user"
+                android:title="我的帳號" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/settings"
+                android:title="設定" />
+        </menu>
+    </item>
+
+</menu>

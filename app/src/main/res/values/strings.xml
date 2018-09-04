@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Heart</string>
+    <string name="title_activity_icon_ani">Icon_ani</string>
+    <string name="title_activity_totalactivity">Totalactivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

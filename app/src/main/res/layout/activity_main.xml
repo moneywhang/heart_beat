@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.money.heart.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/r1"
+        android:visibility="gone">
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/chart1">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="230dp"
+            android:id="@+id/chart2"
+            android:visibility="gone">
+
+        </com.github.mikephil.charting.charts.LineChart>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="470dp"
+            android:src="@mipmap/stust"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="680dp"
+            android:src="@mipmap/mic"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:text="BPM : "
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="380dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:text=""
+            android:id="@+id/bpm_txt"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="540dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:text="Spo2 : "
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="680dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:text=""
+            android:id="@+id/spo2_txt"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="820dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/r2"
+        android:visibility="visible">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

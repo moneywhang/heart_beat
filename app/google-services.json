@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793909042858",
+    "firebase_url": "https://heartbeat-ca04b.firebaseio.com",
+    "project_id": "heartbeat-ca04b",
+    "storage_bucket": "heartbeat-ca04b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793909042858:android:8be01339d0de6669",
+        "android_client_info": {
+          "package_name": "com.example.money.heart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793909042858-m2q7jno7uenbr8s6il95gimfsuo26tlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.money.heart",
+            "certificate_hash": "817c69c5ce3ec145cae4566260a6c3f3c49b7984"
+          }
+        },
+        {
+          "client_id": "793909042858-9n4sf7g5r4t2p27v30r2t83n95918kvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAujiZHhEf7YPrzNy6QhMXRQZw0vDZDkxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793909042858-9n4sf7g5r4t2p27v30r2t83n95918kvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
