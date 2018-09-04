@@ -66,7 +66,7 @@ public class Heart extends Fragment {
         mChart2=(LineChart)root.findViewById(R.id.chart2) ;
         mChart3=(LineChart)root.findViewById(R.id.chart3) ;
 
-
+//
         settimgchart();
         Set_chart1();
         Set_chart2();
