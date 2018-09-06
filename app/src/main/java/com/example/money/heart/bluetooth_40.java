@@ -47,7 +47,7 @@ public class bluetooth_40 {
     public static float [] blesetAry1 =new float[30];
     public static float [] blesetAry2 =new float[30];
     private  int blesetcount =0, blesetcount1 =0,blesetcount2=0;
-    float blee,blee1,blee2;
+    public static float blee,blee1,blee2;
    public static boolean drawstus =false,serch_stus =false;
     public static  List<String>mBleName;
     public static ArrayAdapter<String> btArrayAdapter;
@@ -351,23 +351,22 @@ public void Read_Rssi(){
         blee =Float.valueOf(readdata_ble);
         blee1 =Float.valueOf(readdata_ble4);
         blee2 =Float.valueOf(readdata_ble5);
-        if(blee>0 && blee<70){
+        Log.i("jim","blee:  "+blee);
+        if(blee>0 && blee<15){
             blee =0;
         }
         if(blee<0 &&blee>-80){
             blee =0;
         }
-        if(blee>70){
-            blee*=3;
-        }
+
         if(blee<-100){
             blee*=2;
         }
         if(blee<-300){
-            blee =-300;
+            blee =-100;
         }
         if(blee>500){
-            blee =500;
+            blee =200;
         }
         drawstus=false;
       //Log.i("jim","y軸:  "+blee);
@@ -381,7 +380,7 @@ public void Read_Rssi(){
         blesetcount1++;
         blesetcount2++;
         //Log.i("JIM","showary"+blesetAry.length);
-        if(blesetcount==29){
+        if(blesetcount==10){
 
             blesetcount =0;
             drawstus=true;

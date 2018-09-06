@@ -188,10 +188,10 @@ public class Heart extends Fragment {
         leftAxis.setTextColor(Color.BLACK);
 
         // 最大值
-        leftAxis.setAxisMaximum(150f);
+        leftAxis.setAxisMaximum(80f);
 
         // 最小值
-        leftAxis.setAxisMinimum(0f);
+        leftAxis.setAxisMinimum(-50f);
 
         // 不一定要从0开始
         leftAxis.setStartAtZero(false);
